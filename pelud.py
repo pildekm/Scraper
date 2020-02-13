@@ -15,11 +15,7 @@ class PeludSpider(scrapy.Spider):
     def parse(self, response):
         for data in response.css('div.mjerenje'):
             stats = {}
-            try:
-                vrijednost = data.xpath('.//div[@class="clearfix vrijednost"]/text()').get()
-            except:
-                print('Vrijedost nije dohvačena!')
-
+            vrijednost = data.xpath('.//div[@class="clearfix vrijednost"]/text()').get()
             if vrijednost:
                 try:
                     stats['grad'] = response.css('title::text').get().split()[2]
