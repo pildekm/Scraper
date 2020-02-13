@@ -1,7 +1,6 @@
 import scrapy
 import data_base as db
 
-# print(__name__)
 db.close_conection_to_db()
 db.connect_to_db()
 

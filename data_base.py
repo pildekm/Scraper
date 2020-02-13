@@ -1,4 +1,8 @@
+#!/usr/bin/envk
 from peewee import *
+# Peewee wont create the database for you, you need to first connect to the database with psql shell
+# CREATE DATABASE db_pelud;
+# CREATEUSER encode WITH PASSWORD '100';
 
 pg_db = PostgresqlDatabase('db_pelud', user='encode', password='100', host='127.0.0.1', port=5432)
 
@@ -20,7 +24,6 @@ def add_pelud_data(**kwargs):
                           vrijednost=kwargs['vrijednost'])
     except:
         print('Error')
-
 
 def connect_to_db():
     c = pg_db.connect()
