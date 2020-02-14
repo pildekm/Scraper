@@ -73,6 +73,7 @@ class Pelud(Resource):
         data = [{r[1]: {'datum': r[2].strftime("%d.%m.%Y"), 'biljka': r[3], 'vrijednost': float(r[4])}} for r in res]
         return jsonify(data)
 
+
 # pelud_api = Blueprint('resources.pelud', __name__)
 # api = Api(pelud_api)
 api.add_resource(Pelud, '/api/v1/pelud', endpoint='pelud', )
