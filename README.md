@@ -25,7 +25,9 @@ Dohvačamo sve podatke.
 URL = 'http://127.0.0.1:5000/api/v1/pelud'
 
 U slučaju potrebe dobivanja podatka za više gradova razdvojimo ih '|'
+
 URL = 'http://127.0.0.1:5000/api/v1/pelud?grad=Zagreb|Osijek'
+
 URL = 'http://127.0.0.1:5000/api/v1/pelud?grad=Zagreb' -> dohvača podatke za jedan grad
 
 U slučaju potreba za dobivanje podataka za više biljka razdvojimo ih '|'
