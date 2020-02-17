@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f194dd64-a5d5-44f9-98bd-7f3220f50894" name="Default Changelist" comment="dodan import flask_cors zbog ajaxa">
-      <change afterPath="$PROJECT_DIR$/../Graf/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/.idea/Graf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/Graf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/graf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/node_modules/xmlhttprequest/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/node_modules/xmlhttprequest/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/node_modules/xmlhttprequest/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/node_modules/xmlhttprequest/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/node_modules/xmlhttprequest/lib/XMLHttpRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/node_modules/xmlhttprequest/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Graf/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Flask_Cors-3.0.8.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Flask_Cors-3.0.8.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Flask_Cors-3.0.8.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Flask_Cors-3.0.8.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Flask_Cors-3.0.8.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/Flask_Cors-3.0.8.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_cors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_cors/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_cors/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_cors/extension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_cors/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graf/Graf.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Graf/Graf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graf/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graf/graf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Graf/graf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graf/request.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pelud.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/pelud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pelud.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pelud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$USER_HOME$/Python/test_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -110,6 +85,8 @@
       <workItem from="1581924317198" duration="1625000" />
       <workItem from="1581957392035" duration="189000" />
       <workItem from="1581957599115" duration="107000" />
+      <workItem from="1581957971226" duration="59000" />
+      <workItem from="1581958186881" duration="618000" />
     </task>
     <servers />
   </component>
@@ -139,13 +116,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2617" y="268" width="515" height="542" key="EnvironmentVariablesDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581586860231" />
-    <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581957410993">
+    <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581958200185">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="4583" y="297" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080/3840.0.1920.1080@3840.0.1920.1080" timestamp="1581933819172" />
     <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1581690574380" />
     <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581692562402" />
-    <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1581957410993" />
+    <state x="743" y="299" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1581958200185" />
     <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1581957704902">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
@@ -268,12 +245,12 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state width="960" height="495" key="XDebugger.FullValuePopup/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1581602569112" />
-    <state x="616" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1581957600698">
+    <state x="616" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1581958192356">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="4456" y="366" key="com.intellij.ide.util.TipDialog/0.27.1920.988/1920.0.1920.1080/3840.0.1920.1080@0.27.1920.988" timestamp="1581924318952" />
     <state x="2536" y="366" key="com.intellij.ide.util.TipDialog/0.27.1920.988/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581663538622" />
-    <state x="616" y="362" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581957600698" />
+    <state x="616" y="362" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581958192356" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/REST_api$app.coverage" NAME="app Coverage Results" MODIFIED="1581957603813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -28,4 +28,3 @@ class PeludSpider(scrapy.Spider):
 
 
 
-

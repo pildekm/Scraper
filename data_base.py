@@ -40,5 +40,3 @@ def close_conection_to_db():
 if __name__ == '__main__':
     connect_to_db()
 
-
-
