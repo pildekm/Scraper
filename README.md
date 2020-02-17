@@ -33,11 +33,13 @@ URL = 'http://127.0.0.1:5000/api/v1/pelud?grad=Zagreb' -> dohvača podatke za je
 U slučaju potreba za dobivanje podataka za više biljka razdvojimo ih '|'
 
 URL = 'http://127.0.0.1:5000/api/v1/pelud?biljka=Joha|Čempresi'
+
 URL = 'http://127.0.0.1:5000/api/v1/pelud?biljka=Joha' - dohvača podatke za jednu biljku
 
 Atribut datum odvajamo znakom '|' ako želimo dobiti podatke nekog razdoblja
 
 URL = 'http://127.0.0.1:5000/api/v1/pelud?datum=13.02.2020|14.02.2020'
+
 URL = 'http://127.0.0.1:5000/api/v1/pelud?datum=13.02.2020' -> dohvača podatke samo za određeni datum.
 
 Primjer kombinacije atributa. Atribute odvajamo znakom '&'
