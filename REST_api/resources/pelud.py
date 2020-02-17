@@ -39,6 +39,7 @@ class Pelud(Resource):
             sql = """ {} {} {} {}""".format(clause, name, word, date)
         return sql
 
+
     def get(self):
         args = parser.parse_args()
         grad = args['grad'].split('|') if args['grad'] else False
@@ -72,7 +73,6 @@ class Pelud(Resource):
         res = cur.fetchall()
         data = [{r[1]: {'datum': r[2].strftime("%d.%m.%Y"), 'biljka': r[3], 'vrijednost': float(r[4])}} for r in res]
         return jsonify(data)
-
 
 # pelud_api = Blueprint('resources.pelud', __name__)
 # api = Api(pelud_api)

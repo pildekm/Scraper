@@ -6,4 +6,3 @@ def initialize():
     if conn:
         print('Povezan s bazom!')
         return conn
-
