@@ -1,5 +1,5 @@
 # Scraper
-Potrebno instalirati postgres, scrapy, Chart.js, python3
+Potrebno instalirati PostgreSQL, Scrapy, Chart.js, Python3
 ________________________________________________________
 $ sudo -u postgres psql;
 
